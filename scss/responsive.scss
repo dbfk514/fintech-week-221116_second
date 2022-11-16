@@ -31,8 +31,8 @@
     min-width: 100%;
   }
   .sc-title {
-    font-size: 2rem;
     margin: 1.5rem 0;
+    font-size: 2rem;
   }
   #header-area {
     .inner {
@@ -147,7 +147,7 @@
       input[type="radio"] + span {
         padding-left: 3rem;
         &::before {
-          top: .1rem;
+          top: .05rem;
           width: 2rem;
           height: 2rem;
         }
@@ -162,15 +162,14 @@
       input[type="checkbox"] + span {
         padding-left: 3rem;
         &::before {
-          top: .05rem;
           width: 2rem;
           height: 2rem;
         }
       }
       input[type="checkbox"]:checked + span{
         &::after {
-          top: -.05rem;
-          left: -.05rem;
+          top: 0rem;
+          left: -0.1rem;
           width: 2rem;
           height: 2rem;
         }
@@ -203,9 +202,9 @@
     }
     .city-list {
       flex-wrap: wrap;
-      font-size: 1.32rem;
       padding: 0 2rem 2rem;
       line-height: 1.8;
+      font-size: 1.32rem;
       .city-item {
         font-weight: 700;
         + .city-item{
@@ -304,7 +303,7 @@
     .application-form {
       em {
         margin-bottom: 1rem;
-        line-height: 1.6;
+        line-height: 2;
         font-size: 1.7rem;
       }
       li {
@@ -326,6 +325,7 @@
       }
       input[type="radio"] + span {
         padding-left: 3.2rem;
+        line-height: 2;
       }
       .agreement {
         .chk-textbox {
@@ -397,6 +397,4 @@
       }
     }
   }
-  
-
 }
