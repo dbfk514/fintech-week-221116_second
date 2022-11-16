@@ -16,7 +16,8 @@ gulp.task('concat', function () {
         'dist/css/reset.css',
         'dist/css/common.css',
         'dist/css/component.css',
-        'dist/css/layout.css'
+        'dist/css/layout.css',
+        'dist/css/responsive.css'
     ])    // concat으로 탐색할 위치
         .pipe(replace('@charset "UTF-8";', ''))
         .pipe(concat('style.css'))      // concat으로 병합할 파일명               
