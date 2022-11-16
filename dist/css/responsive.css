@@ -1,0 +1,365 @@
+@media screen and (min-width: 280px) and (max-width: 319px) {
+  html, body {
+    font-size: 50% !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  html, body {
+    font-size: 62.5% !important;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 413px) {
+  html, body {
+    font-size: 68.75% !important;
+  }
+}
+@media screen and (min-width: 414px) and (max-width: 1023px) {
+  html, body {
+    font-size: 75% !important;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  html, body {
+    font-size: 50% !important;
+  }
+}
+@media (max-width: 819px) {
+  .inner {
+    min-width: 100%;
+  }
+  .sc-title {
+    font-size: 2rem;
+    margin: 1.5rem 0;
+  }
+  #header-area .inner {
+    height: 7rem;
+  }
+  #header-area .logo {
+    transform: scale(0.7) translate(-10%);
+  }
+  #header-area .logo a {
+    display: block;
+    height: 100%;
+  }
+  #sc-visual {
+    height: 54rem;
+    padding: 0 1.5rem;
+  }
+  #sc-visual::after {
+    display: none;
+  }
+  #sc-visual .inner {
+    min-width: 100%;
+    height: 100%;
+  }
+  #sc-visual .text-box .title {
+    padding-top: 9rem;
+    padding-bottom: 2rem;
+    font-size: 2.2rem;
+  }
+  #sc-visual .text-box .desc {
+    font-size: 1.3rem;
+  }
+  #sc-visual .text-box .desc br {
+    display: none;
+  }
+  #sc-visual .img-box {
+    width: 22rem;
+    height: 22rem;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #sc-offer {
+    padding: 4.4rem 1rem;
+  }
+  #sc-offer .offer-list {
+    display: flex;
+    flex-direction: column;
+    flex: 100%;
+    max-width: 100%;
+  }
+  #sc-offer .offer-list .offer-item {
+    max-width: 100%;
+  }
+  #sc-offer .offer-list .offer-item:last-child {
+    margin-top: 1rem;
+  }
+  #sc-offer .offer-list .offer-item .text-wrap {
+    height: 17.7rem;
+  }
+  #sc-offer .offer-list .offer-item .text-wrap .title {
+    font-size: 1.54rem;
+  }
+  #sc-offer .offer-list .offer-item .text-wrap .title.space {
+    margin-top: 0.88rem;
+  }
+  #sc-offer .offer-list .offer-item .text-wrap .desc {
+    font-size: 1.2rem;
+  }
+  #sc-offer .offer-list .offer-item .text-wrap .refer {
+    font-size: 1.2rem;
+  }
+  #sc-offer .offer-list .offer-item .text-wrap .img-box {
+    display: none;
+  }
+  #sc-offer .offer-list .offer-item .link-submit {
+    height: 4rem;
+    font-size: 1.54rem;
+  }
+  #sc-survey {
+    padding: 4.4rem 1rem;
+  }
+  #sc-survey .application-form em {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+  }
+  #sc-survey .application-form li {
+    flex: 100%;
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+  }
+  #sc-survey .application-form li .wpcf7-list-item {
+    margin-bottom: 0.5rem;
+    line-height: 1.588;
+  }
+  #sc-survey .application-form li select {
+    background-position: calc(100% - 1rem) center;
+  }
+  #sc-survey .application-form .fill {
+    margin-top: 3rem;
+    line-height: 1.6;
+  }
+  #sc-survey .application-form input[type=text], #sc-survey .application-form input[type=tel], #sc-survey .application-form input[type=email], #sc-survey .application-form select {
+    height: 4rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+  }
+  #sc-survey .application-form input[type=radio] + span {
+    padding-left: 3rem;
+  }
+  #sc-survey .application-form input[type=radio] + span::before {
+    top: 0.1rem;
+    width: 2rem;
+    height: 2rem;
+  }
+  #sc-survey .application-form input[type=radio]:checked + span::after {
+    top: 0.05rem;
+    width: 2rem;
+    height: 2rem;
+  }
+  #sc-survey .application-form input[type=checkbox] + span {
+    padding-left: 3rem;
+  }
+  #sc-survey .application-form input[type=checkbox] + span::before {
+    top: 0.05rem;
+    width: 2rem;
+    height: 2rem;
+  }
+  #sc-survey .application-form input[type=checkbox]:checked + span::after {
+    top: -0.05rem;
+    left: -0.05rem;
+    width: 2rem;
+    height: 2rem;
+  }
+  #sc-survey .application-form .agreement .chk-textbox {
+    line-height: 1.588;
+  }
+  #sc-survey .application-form .btn-box {
+    margin-top: 4rem;
+  }
+  #sc-survey .application-form .btn-box .btn-submit {
+    width: 12rem;
+    height: 3.5rem;
+    line-height: 1.987;
+    font-size: 1.7rem;
+  }
+  #footer-area {
+    padding-top: 3rem;
+  }
+  #footer-area .sns-area {
+    padding-bottom: 1.3rem;
+  }
+  #footer-area .sns-area .sns-item + .sns-item {
+    margin-left: 1rem;
+  }
+  #footer-area .city-list {
+    flex-wrap: wrap;
+    font-size: 1.32rem;
+    padding: 0 2rem 2rem;
+    line-height: 1.8;
+  }
+  #footer-area .city-list .city-item {
+    font-weight: 700;
+  }
+  #footer-area .city-list .city-item + .city-item {
+    margin-left: 0.5rem;
+  }
+  #footer-area .city-list .city-item + .city-item::before {
+    height: 1.2rem;
+  }
+  #footer-area .copy {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 820px) and (max-width: 1023px) {
+  .inner {
+    min-width: 100%;
+  }
+  .sc-title {
+    font-size: 2.8rem;
+    margin: 1.5rem 0;
+  }
+  #sc-visual {
+    height: 60rem;
+    padding: 0 1.5rem;
+  }
+  #sc-visual::after {
+    display: none;
+  }
+  #sc-visual .inner {
+    min-width: 100%;
+    height: 100%;
+  }
+  #sc-visual .text-box .title {
+    padding-top: 11.5rem;
+    padding-bottom: 2rem;
+    font-size: 3.8rem;
+  }
+  #sc-visual .text-box .desc {
+    padding-bottom: 1.3rem;
+    font-size: 1.7rem;
+  }
+  #sc-visual .text-box .desc br {
+    display: none;
+  }
+  #sc-visual .img-box {
+    width: 26rem;
+    height: 26rem;
+    top: 57%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #sc-offer {
+    padding: 4.4rem 1rem;
+  }
+  #sc-offer .offer-list {
+    display: flex;
+    flex-direction: column;
+    flex: 100%;
+    max-width: 100%;
+  }
+  #sc-offer .offer-list .offer-item {
+    max-width: 100%;
+  }
+  #sc-offer .offer-list .offer-item:last-child {
+    margin-top: 1rem;
+  }
+  #sc-offer .offer-list .offer-item .text-wrap {
+    height: 17.7rem;
+  }
+  #sc-offer .offer-list .offer-item .text-wrap .title {
+    font-size: 2rem;
+  }
+  #sc-offer .offer-list .offer-item .text-wrap .title.space {
+    margin-top: 1rem;
+  }
+  #sc-offer .offer-list .offer-item .text-wrap .desc {
+    font-size: 1.4rem;
+  }
+  #sc-offer .offer-list .offer-item .text-wrap .refer {
+    padding-top: 0.8rem;
+    font-size: 1.4rem;
+  }
+  #sc-offer .offer-list .offer-item .text-wrap .img-box {
+    display: none;
+  }
+  #sc-offer .offer-list .offer-item .link-submit {
+    height: 4rem;
+    font-size: 1.54rem;
+  }
+  #sc-survey {
+    padding: 4.4rem 1rem;
+  }
+  #sc-survey .application-form em {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    font-size: 1.7rem;
+  }
+  #sc-survey .application-form li {
+    flex: 100%;
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  #sc-survey .application-form li select {
+    background-position: calc(100% - 1rem) center;
+  }
+  #sc-survey .application-form .fill {
+    margin-top: 3rem;
+    line-height: 1.6;
+  }
+  #sc-survey .application-form input[type=text], #sc-survey .application-form input[type=tel], #sc-survey .application-form input[type=email], #sc-survey .application-form select {
+    height: 5rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+  }
+  #sc-survey .application-form input[type=radio] + span {
+    padding-left: 3.2rem;
+  }
+  #sc-survey .application-form .agreement .chk-textbox {
+    line-height: 1.588;
+  }
+  #sc-survey .application-form .btn-box {
+    margin-top: 4rem;
+  }
+  #sc-survey .application-form .btn-box .btn-submit {
+    width: 16rem;
+    height: 4rem;
+    line-height: 2;
+    font-size: 2rem;
+  }
+  #footer-area .sns-area {
+    padding-bottom: 1.3rem;
+  }
+  #footer-area .sns-area .sns-item + .sns-item {
+    margin-left: 1rem;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .inner {
+    min-width: 100%;
+  }
+  #sc-visual {
+    height: 92rem;
+  }
+  #sc-visual::after {
+    display: none;
+  }
+  #sc-visual .inner {
+    min-width: 100%;
+    height: 100%;
+  }
+  #sc-visual .text-box .title {
+    padding-top: 20rem;
+    padding-bottom: 2rem;
+    font-size: 3.8rem;
+  }
+  #sc-visual .text-box .desc br {
+    display: none;
+  }
+  #sc-visual .img-box {
+    width: 46rem;
+    height: 46rem;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #footer-area .sns-area {
+    padding-bottom: 2.7rem;
+  }
+  #footer-area .sns-area .sns-item + .sns-item {
+    margin-left: 1.7rem;
+  }
+}
