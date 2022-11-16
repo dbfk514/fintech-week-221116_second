@@ -1,0 +1,53 @@
+/* common styles */
+html, body {
+  font-size: 62.5%;
+  font-family: Roboto, Helvetica, Arial, Verdana, sans-serif;
+  letter-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+select,
+input,
+textarea,
+button {
+  outline: 0;
+}
+
+select {
+  width: 100%;
+  height: 100%;
+  padding: 0 28px 0 10px;
+  font-size: 15px;
+  border: 0;
+  -webkit-appearance: none; /* for chrome */
+  -moz-appearance: none; /*for firefox*/
+  appearance: none;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+select::-ms-expand {
+  display: none; /*for IE10,11*/
+}
+
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+}
+
+.inner {
+  min-width: 1200px;
+  margin: 0 auto;
+}

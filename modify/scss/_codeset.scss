@@ -1,0 +1,13 @@
+// variable
+$color1 : #202c5f;
+
+@mixin flex-between {
+	display: flex;
+	justify-content: space-between;
+	@content;
+}
+@mixin flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	@content;
+}

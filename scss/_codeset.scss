@@ -1,0 +1,46 @@
+// variable
+$color1 : #202c5f;
+$color2 : #d2d2d2;
+$current-width: 1200px;
+$mobile-width: 320px;
+$tablet-width: 820px;
+$laptop-width: 1024px;
+$desktop-width: 1200px;
+
+//mixin
+@mixin flex-between {
+	display: flex;
+	justify-content: space-between;
+	@content;
+}
+@mixin flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	@content;
+}
+@mixin flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	@content;
+}
+@mixin mobile {
+    @media (max-width: #{$tablet-width - 1px}) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media (min-width: #{$tablet-width}) and (max-width: #{$laptop-width - 1px}) {
+        @content;
+    }
+}
+@mixin laptop {
+    @media (min-width: #{$laptop-width}) and (max-width: #{$current-width - 1px}) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: #{$current-width}) {
+        @content;
+    }
+}
