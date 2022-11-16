@@ -314,18 +314,24 @@
   height: 3rem;
   background-image: url("../images/contents/sns-item01.png");
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 #footer-area .sns-area .sns-item.facebook {
   width: 3rem;
   height: 3rem;
   background-image: url("../images/contents/sns-item02.png");
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 #footer-area .sns-area .sns-item.youtube {
   width: 3rem;
   height: 3rem;
   background-image: url("../images/contents/sns-item03.png");
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 #footer-area .sns-area .sns-item a {
   display: block;

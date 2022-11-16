@@ -120,7 +120,7 @@ select::-ms-expand {
 }
 
 .inner {
-  min-width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 .sc-title {
@@ -450,18 +450,24 @@ select::-ms-expand {
   height: 3rem;
   background-image: url("../images/contents/sns-item01.png");
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 #footer-area .sns-area .sns-item.facebook {
   width: 3rem;
   height: 3rem;
   background-image: url("../images/contents/sns-item02.png");
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 #footer-area .sns-area .sns-item.youtube {
   width: 3rem;
   height: 3rem;
   background-image: url("../images/contents/sns-item03.png");
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 #footer-area .sns-area .sns-item a {
   display: block;
@@ -830,6 +836,7 @@ select::-ms-expand {
     min-width: 100%;
   }
   #sc-visual {
+    padding: 0 1rem;
     height: 92rem;
   }
   #sc-visual::after {
@@ -853,6 +860,18 @@ select::-ms-expand {
     top: 45%;
     left: 50%;
     transform: translateX(-50%);
+  }
+  #sc-offer {
+    padding: 10rem 1rem;
+  }
+  #sc-survey {
+    padding: 9rem 1rem 10rem;
+  }
+  #sc-survey input[type=radio] + span::before {
+    top: 0.9rem;
+  }
+  #sc-survey input[type=radio]:checked + span::after {
+    top: 0.9rem;
   }
   #footer-area .sns-area {
     padding-bottom: 2.7rem;

@@ -311,16 +311,22 @@
 				width: 3rem; height: 3rem;
 				background-image: url('../images/contents/sns-item01.png');
         background-repeat: no-repeat;
-			}
+        background-size: contain;
+        background-position: center;
+			}      
 			&.facebook {
 				width: 3rem; height: 3rem;
 				background-image: url('../images/contents/sns-item02.png');
         background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
 			}
 			&.youtube {
 				width: 3rem; height: 3rem;
 				background-image: url('../images/contents/sns-item03.png');
         background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
 			}
 			a{
 				display: block;
