@@ -28,8 +28,8 @@
     min-width: 100%;
   }
   .sc-title {
-    font-size: 2rem;
     margin: 1.5rem 0;
+    font-size: 2rem;
   }
   #header-area .inner {
     height: 7rem;
@@ -141,7 +141,7 @@
     padding-left: 3rem;
   }
   #sc-survey .application-form input[type=radio] + span::before {
-    top: 0.1rem;
+    top: 0.05rem;
     width: 2rem;
     height: 2rem;
   }
@@ -154,13 +154,12 @@
     padding-left: 3rem;
   }
   #sc-survey .application-form input[type=checkbox] + span::before {
-    top: 0.05rem;
     width: 2rem;
     height: 2rem;
   }
   #sc-survey .application-form input[type=checkbox]:checked + span::after {
-    top: -0.05rem;
-    left: -0.05rem;
+    top: 0rem;
+    left: -0.1rem;
     width: 2rem;
     height: 2rem;
   }
@@ -187,9 +186,9 @@
   }
   #footer-area .city-list {
     flex-wrap: wrap;
-    font-size: 1.32rem;
     padding: 0 2rem 2rem;
     line-height: 1.8;
+    font-size: 1.32rem;
   }
   #footer-area .city-list .city-item {
     font-weight: 700;
@@ -285,7 +284,7 @@
   }
   #sc-survey .application-form em {
     margin-bottom: 1rem;
-    line-height: 1.6;
+    line-height: 2;
     font-size: 1.7rem;
   }
   #sc-survey .application-form li {
@@ -307,6 +306,7 @@
   }
   #sc-survey .application-form input[type=radio] + span {
     padding-left: 3.2rem;
+    line-height: 2;
   }
   #sc-survey .application-form .agreement .chk-textbox {
     line-height: 1.588;
